@@ -1,0 +1,32 @@
+User Group  : Admin and User
+
+Admin
+    - Manage User Accounts (M)
+    - Manage Posts (M)
+    - Manage Subscriptions (S)
+
+User
+    - Manage Posts (M)
+    - Manage Account (M)
+    - Manage Subscription (S)
+
+Functional Requirements
+
+    Manage User Accounts
+        - Record User Account
+        - Activate or Deactivate User Account
+
+    Manage Posts
+        - Record Category
+        - Record Post
+        - Publish Users' Posts
+    
+    Manage Subscriptions
+        - Record Packages
+        - Record Subscriptions
+        - Send Subscription's Email
+    
+Non-Functional Requirements
+    - Design Admin Dashboard
+    - Multi-authentication
+    - Laravel Cashier
